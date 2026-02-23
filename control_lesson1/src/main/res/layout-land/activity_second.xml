@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0,1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_span="2"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:padding="12dp"
+        android:text="New life for mirea activity!"
+        android:textColor="#6D5656"
+        android:textSize="24sp" />
+</TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ПЕРВАЯ КНОПКА" />
+
+        <Button
+            android:id="@+id/button2.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ВТОРАЯ КНОПКА" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button3.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ТРЕТЬЯ КНОПКА" />
+
+        <Button
+            android:id="@+id/button4.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ЧЕТВЕРТАЯ КНОПКА" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button5.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ПЯТАЯ КНОПКА" />
+
+        <Button
+            android:id="@+id/button6.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ШЕСТАЯ КНОПКА" />
+    </TableRow>
+
+</TableLayout>
