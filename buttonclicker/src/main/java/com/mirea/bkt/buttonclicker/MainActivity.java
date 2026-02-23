@@ -3,7 +3,9 @@ package com.mirea.bkt.buttonclicker;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,6 +17,14 @@ public class MainActivity extends AppCompatActivity {
     private TextView textViewStudent;
     private Button btnWhoAmI;
     private Button btnItIsNotMe ;
+    public void onMyButtonClick(View view)
+    {
+        // выводим сообщение
+        Toast.makeText(this, "Ещё один способ!", Toast.LENGTH_SHORT).show();
+        CheckBox cb = findViewById(R.id.checkBox);
+        cb.toggle();
+        textViewStudent.setText("Это не я сделал!");
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,13 +44,15 @@ public class MainActivity extends AppCompatActivity {
 
         btnWhoAmI.setOnClickListener(oclBtnWhoAmI);
 
-        View.OnClickListener oclBtnItisNotMe = new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                textViewStudent.setText("Это не я сделал!");
-            }
-        };
-        btnItIsNotMe.setOnClickListener(oclBtnItisNotMe);
+//        View.OnClickListener oclBtnItisNotMe = new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                textViewStudent.setText("Это не я сделал!");
+//                CheckBox cb = findViewById(R.id.checkBox);
+//                cb.toggle();
+//            }
+//        };
+//        btnItIsNotMe.setOnClickListener(oclBtnItisNotMe);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
