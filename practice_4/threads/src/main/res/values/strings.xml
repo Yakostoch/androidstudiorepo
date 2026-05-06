@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">threads</string>
+    <string name="thread_info_placeholder">Информация о главном потоке появится здесь.</string>
+    <string name="button_start_thread">Запустить поток</string>
+    <string name="current_thread_name">Имя текущего потока: %1$s</string>
+    <string name="new_thread_name">Новое имя потока: %1$s</string>
+    <string name="thread_priority">Приоритет потока: %1$d</string>
+    <string name="thread_alive">Поток активен: %1$b</string>
+    <string name="thread_finished">Фоновый поток № %1$d завершён.</string>
+</resources>
