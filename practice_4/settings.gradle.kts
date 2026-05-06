@@ -24,3 +24,10 @@ dependencyResolutionManagement {
 
 rootProject.name = "ru.mirea.Butakov.Lesson4"
 include(":app")
+include(":thread")
+include(":threads")
+include(":data_thread")
+include(":looper")
+include(":CryptoLoader")
+include(":ServiceApp")
+include(":WorkManager")

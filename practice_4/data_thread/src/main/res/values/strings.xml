@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">data_thread</string>
+    <string name="initial_info">Ожидание запуска Runnable в UI-потоке...</string>
+    <string name="runn1_text">1. runOnUiThread: сначала выполнен runn1 после паузы 2 секунды.</string>
+    <string name="runn2_text">2. post: затем сразу поставлен в очередь runn2 и выполнен раньше отложенного Runnable.</string>
+    <string name="runn3_text">3. postDelayed: последним выполнен runn3, потому что для него задана задержка 2000 мс.</string>
+    <string name="explanation_text">Различия: runOnUiThread немедленно отправляет Runnable в главный поток из Activity. post делает почти то же самое, но через очередь конкретного View. postDelayed тоже использует очередь View, но запускает Runnable только после указанной задержки. Последовательность запуска: runn1 → runn2 → runn3.</string>
+</resources>
