@@ -1,0 +1,16 @@
+com.mirea.bkt.cryptoloader
+id buttonEncrypt
+id editTextPhrase
+id textViewStatus
+id textViewTitle
+layout activity_main
+string app_name
+string button_encrypt
+string enter_phrase
+string hint_phrase
+string loader_finished
+string loader_started
+string status_idle
+string title_text
+style Base_Theme_CryptoLoader
+style Theme_CryptoLoader

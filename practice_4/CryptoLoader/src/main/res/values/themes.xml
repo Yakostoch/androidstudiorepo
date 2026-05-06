@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.CryptoLoader" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@android:color/holo_orange_dark</item>
+    </style>
+
+    <style name="Theme.CryptoLoader" parent="Base.Theme.CryptoLoader" />
+</resources>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.mirea.bkt.serviceapp.ServiceApp-debug-35:/layout_activity_main.xml.flat",
+        "source": "com.mirea.bkt.serviceapp.ServiceApp-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.mirea.bkt.serviceapp.ServiceApp-debug-35:/raw_music.wav.flat",
+        "source": "com.mirea.bkt.serviceapp.ServiceApp-main-37:/raw/music.wav"
+    }
+]

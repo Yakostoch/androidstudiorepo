@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.ServiceApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@android:color/holo_green_light</item>
+    </style>
+    <style name="Theme.ServiceApp" parent="Base.Theme.ServiceApp"/>
+</resources>

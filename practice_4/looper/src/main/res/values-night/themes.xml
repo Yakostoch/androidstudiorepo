@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Looper" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@android:color/holo_green_light</item>
+    </style>
+
+    <style name="Theme.Looper" parent="Base.Theme.Looper" />
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">looper</string>
+    <string name="button_send">Отправить сообщение в поток</string>
+    <string name="fill_all_fields">Заполните возраст и профессию.</string>
+    <string name="hint_age">Введите возраст</string>
+    <string name="hint_profession">Введите профессию</string>
+    <string name="invalid_age">Возраст должен быть положительным числом.</string>
+    <string name="looper_not_ready">Поток ещё не подготовил Handler. Нажмите кнопку ещё раз через секунду.</string>
+    <string name="result_placeholder">Результат обработки появится здесь и в Logcat.</string>
+    <string name="task_sent">Сообщение отправлено в Looper. Ожидайте %1$d секунд.</string>
+    <string name="title_text">Looper и MessageQueue</string>
+    <style name="Base.Theme.Looper" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@android:color/holo_green_dark</item>
+    </style>
+    <style name="Theme.Looper" parent="Base.Theme.Looper"/>
+</resources>
