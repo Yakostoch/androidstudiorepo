@@ -1,0 +1,19 @@
+com.mirea.bkt.workmanager
+id buttonStartWorker
+id textViewDescription
+id textViewStatus
+id textViewTitle
+layout activity_main
+string app_name
+string button_start_worker
+string description_text
+string status_blocked
+string status_cancelled
+string status_enqueued
+string status_failed
+string status_ready
+string status_running
+string status_success
+string title_text
+style Base_Theme_WorkManager
+style Theme_WorkManager

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.WorkManager" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@android:color/holo_blue_light</item>
+    </style>
+    <style name="Theme.WorkManager" parent="Base.Theme.WorkManager"/>
+</resources>

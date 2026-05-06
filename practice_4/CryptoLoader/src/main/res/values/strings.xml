@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CryptoLoader</string>
+    <string name="title_text">AES и Loader</string>
+    <string name="hint_phrase">Введите фразу для шифрования</string>
+    <string name="button_encrypt">Зашифровать и отправить в Loader</string>
+    <string name="status_idle">Введите фразу и нажмите кнопку.</string>
+    <string name="enter_phrase">Введите фразу перед запуском Loader.</string>
+    <string name="loader_started">Loader запущен. Дешифровка выполняется в фоне...</string>
+    <string name="loader_finished">Дешифрованная фраза: %1$s</string>
+</resources>

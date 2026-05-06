@@ -1,0 +1,18 @@
+com.mirea.bkt.serviceapp
+id buttonStart
+id buttonStop
+id textViewStatus
+id textViewTitle
+id textViewTrack
+layout activity_main
+raw music
+string app_name
+string button_start
+string button_stop
+string status_idle
+string status_started
+string status_stopped
+string title_text
+string track_name
+style Base_Theme_ServiceApp
+style Theme_ServiceApp

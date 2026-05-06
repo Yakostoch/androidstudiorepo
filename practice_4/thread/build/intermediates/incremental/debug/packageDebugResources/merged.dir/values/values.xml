@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thread</string>
+    <string name="background_finished_ui">Фоновый поток №%1$d завершил работу.</string>
+    <string name="background_log_finished">Завершён фоновый поток №%1$d</string>
+    <string name="background_log_started">Запущен фоновый поток №%1$d</string>
+    <string name="background_started_ui">Фоновый поток №%1$d запущен. Смотрите сообщения в Logcat.</string>
+    <string name="button_calculate">Рассчитать среднее</string>
+    <string name="button_run_background">Запустить долгую задачу в фоне</string>
+    <string name="button_run_on_main">Запустить долгую задачу в main</string>
+    <string name="button_show_main_thread">Показать главный поток</string>
+    <string name="hint_study_days">Например, 18</string>
+    <string name="hint_total_pairs">Например, 72</string>
+    <string name="label_study_days">Количество учебных дней</string>
+    <string name="label_total_pairs">Общее количество пар за месяц</string>
+    <string name="main_thread_finished">Долгая задача в главном потоке завершена.</string>
+    <string name="main_thread_started">В главном потоке запущена долгая задача. Интерфейс временно будет менее отзывчивым.</string>
+    <string name="result_calculating">Идёт вычисление в фоновом потоке...</string>
+    <string name="result_days_error">Количество учебных дней должно быть больше нуля.</string>
+    <string name="result_fill_fields">Заполните оба поля.</string>
+    <string name="result_invalid_number">Введите корректные целые числа.</string>
+    <string name="result_placeholder">Результат вычисления появится здесь.</string>
+    <string name="result_value">Среднее количество пар в день: %1$s</string>
+    <string name="thread_info_placeholder">Здесь появится информация о главном потоке.</string>
+    <string name="thread_info_template">Имя потока до изменения: %1$s
+Имя потока после изменения: %2$s
+Приоритет: %3$s
+isAlive: %4$s
+Группа: %5$s</string>
+    <string name="title_screen">Работа с потоками</string>
+    <style name="Base.Theme.Thread" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@android:color/holo_blue_dark</item>
+    </style>
+    <style name="Theme.Thread" parent="Base.Theme.Thread"/>
+</resources>

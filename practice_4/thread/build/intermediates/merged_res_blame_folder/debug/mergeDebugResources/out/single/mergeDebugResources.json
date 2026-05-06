@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.2.1\\com.mirea.bkt.thread-debug-35:\\layout_activity_thread.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.2.1\\com.mirea.bkt.thread-main-37:\\layout\\activity_thread.xml"
+    },
+    {
+        "merged": "com.mirea.bkt.thread-debug-35:/layout_activity_thread.xml.flat",
+        "source": "com.mirea.bkt.thread-main-37:/layout/activity_thread.xml"
+    }
+]

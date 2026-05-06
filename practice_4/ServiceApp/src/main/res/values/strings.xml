@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ServiceApp</string>
+    <string name="title_text">Student Music Player</string>
+    <string name="track_name">Композиция: Skyline Drive</string>
+    <string name="button_start">Воспроизвести</string>
+    <string name="button_stop">Остановить</string>
+    <string name="status_idle">Плеер готов к запуску сервиса.</string>
+    <string name="status_started">Сервис запущен, музыка воспроизводится в фоне.</string>
+    <string name="status_stopped">Сервис остановлен, воспроизведение завершено.</string>
+</resources>

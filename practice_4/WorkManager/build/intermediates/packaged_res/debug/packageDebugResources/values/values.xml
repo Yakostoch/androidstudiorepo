@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WorkManager</string>
+    <string name="button_start_worker">Запустить Worker</string>
+    <string name="description_text">Задача будет запущена только при наличии безлимитного интернета и когда устройство находится на зарядке.</string>
+    <string name="status_blocked">Worker заблокирован из-за ограничений.</string>
+    <string name="status_cancelled">Worker отменён.</string>
+    <string name="status_enqueued">Worker поставлен в очередь и ожидает выполнения условий.</string>
+    <string name="status_failed">Worker завершился с ошибкой.</string>
+    <string name="status_ready">Worker ещё не запущен.</string>
+    <string name="status_running">Worker выполняется...</string>
+    <string name="status_success">Worker успешно завершён.</string>
+    <string name="title_text">WorkManager Demo</string>
+    <style name="Base.Theme.WorkManager" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@android:color/holo_blue_dark</item>
+    </style>
+    <style name="Theme.WorkManager" parent="Base.Theme.WorkManager"/>
+</resources>

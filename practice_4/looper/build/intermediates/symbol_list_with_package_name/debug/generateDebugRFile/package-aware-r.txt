@@ -1,0 +1,19 @@
+com.mirea.bkt.looper
+id buttonSend
+id editTextAge
+id editTextProfession
+id textViewResult
+id textViewTitle
+layout activity_main
+string app_name
+string button_send
+string fill_all_fields
+string hint_age
+string hint_profession
+string invalid_age
+string looper_not_ready
+string result_placeholder
+string task_sent
+string title_text
+style Base_Theme_Looper
+style Theme_Looper
